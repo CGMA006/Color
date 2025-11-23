@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding : 0px;
+}
+
+
+.container {
+    margin-top: 50px;
+    margin-left: 115px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  gap: 2vw;                              
+  width: 80vw;
+  height: 80vh;
+}
+
+
+.container button {
+    font-size: 15vh;
+    height: 40vh; 
+  background-color: gray; 
+}
+
+
+#red:hover{ 
+    background-color: red;
+}
+
+#gre:hover{
+    background-color: green;
+   
+}
+
+#blu:hover{
+    background-color: blue;
+  
+}
+
+#yel:hover{
+    background-color: yellow;
+  
+}
+
+
+button:hover{
+    cursor: pointer;
+}
